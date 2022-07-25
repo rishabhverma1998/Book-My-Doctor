@@ -1,0 +1,86 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.btn1{
+    padding-left: 2.5rem; 
+    padding-right: 2.5rem;
+}
+
+.ursection1{
+    background-color: #eee;
+}
+
+.urclass1{
+    border-radius: 25px;
+}
+/*patient registration*/
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+.primage1{
+    border-top-left-radius: .25rem; 
+    border-bottom-left-radius: .25rem;
+}
+
+
+/* List Apointments */
+.la.div1{
+    background-color: #f5f7fa
+}
+
+.la-div2{
+    position: relative; height: 700px
+}
+
+.la-thead1{
+    background-color: #002d72;
+    color:antiquewhite;
+    text-align: center;
+}
+
+.la-h3{
+    text-align: center;
+    text-shadow: rgb(16, 106, 95);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+/* view patient */
+.lp.div1{
+    background-color: #f5f7fa
+}
+.lp.div2{
+    position: relative; height: 700px
+}
+
+.lp-thead1{
+    background-color: #002d72;
+    color:antiquewhite;
+    text-align: center;
+}
+.lp-h3{
+    text-align: center;
+    text-shadow: rgb(16, 106, 95);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}

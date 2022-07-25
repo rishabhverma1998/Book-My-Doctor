@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.btn1{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* form{
+  background-color: #61dafb;
+  margin: 50px;
+  padding: 10px;
+  border-radius: 20px;
+} */
+
+
+
+label{
+  padding-left: 10px;
+}
+
+
